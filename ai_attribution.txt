@@ -1,0 +1,13 @@
+AI Attribution Statement
+
+This project’s deliverable design reflects my own original ideas, design decisions, perspectives, and analysis.
+
+ChatGPT (GPT-4) was used in the following limited, supportive roles:
+
+    - Generating boilerplate code structure and assisting with debugging.
+
+    - Reviewing and refining video presentation text for fluidity, spelling, and grammar.
+
+    - Providing feedback on tone, clarity, and overall language polish.
+
+All business analysis, unsupervised learning design choices, and project concept development are entirely my own.
