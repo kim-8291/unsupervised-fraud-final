@@ -26,21 +26,25 @@ Using PCA for dimensionality reduction and KMeans clustering, we identify patter
 
 ## ⚙️ How to Run
 
-1. Clone this repo or download the ZIP
-2. (Optional) If `creditcard.csv` is missing, [download it from Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-3. Launch Jupyter Notebook
-4. Run cells in order (top to bottom)
-
+1. **Clone this repository** or download the ZIP from GitHub.
+2. ⚠️ **Important:** `creditcard.csv` is *not included* in this repo due to GitHub’s 100MB file size limit.
+   - [Download the dataset from Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+   - Place it in the **root directory** of this project (same folder as the notebook).
+3. **Launch Jupyter Notebook** in your preferred environment.
+4. Open `Final_project.ipynb` and **run all cells from top to bottom**.
 ---
 
 ## 🛟 Dataset Failsafe
 
-If `creditcard.csv` fails to load:
+If `creditcard.csv` loads correctly, you’ll see a ✅ “Success” message printed in the Jupyter notebook. Otherwise, the first code cells will raise a file-not-found warning.
 
-- Download it from: [Kaggle Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
-- Save it in the **same directory** as `FinalProject.ipynb`  
-- No preprocessing is needed
+To fix:
 
+- 📥 Download the dataset from: [Kaggle Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- 📂 Save `creditcard.csv` in the **same directory** as `Final_project.ipynb`
+- 🧼 No preprocessing or renaming needed — use the file as-is from Kaggle
+
+Once it’s in place, re-run the notebook from the top. You’re good to go!
 ---
 
 ## 📝 Attribution
